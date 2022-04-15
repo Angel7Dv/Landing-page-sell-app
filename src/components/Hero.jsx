@@ -2,7 +2,13 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='flex  justify-center min-h-full text-white hero '>
+    <div className='flex  justify-center min-h-full text-white 
+    bg-cover bg-center bg-no-repeat bg-fixed w-full'
+    style={{
+      backgroundImage: `url("/img/hero02.webp")` 
+    }}
+    
+    >
       <div className='flex w-4/6 flex-col justify-center my-4'>
 
         <div className='flex justify-center my-16 '>

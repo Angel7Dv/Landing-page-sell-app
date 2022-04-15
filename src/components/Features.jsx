@@ -10,18 +10,32 @@ const Features = () => {
             <div className='flex justify-between space-x-3'>
 
 
-                <div className='w-2/4'>
-                    <div >
+                <div className='w-2/4 flex flex-col space-y-8'>
+                    <div>
                         <h3 className='font-bold text-3xl my-6'>
                             01. Fast & Agile
                         </h3>
                         <p >
-
-
                             I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
                         </p>
+                    </div>
 
+                    <div>
+                        <h3 className='font-bold text-3xl my-6'>
+                        02. Cost-Effective
+                        </h3>
+                        <p >
+                            I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
+                        </p>
+                    </div>
 
+                    <div>
+                        <h3 className='font-bold text-3xl my-6'>
+                        03. Real-Time Analytics
+                        </h3>
+                        <p >
+                            I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
+                        </p>
                     </div>
 
                 </div>
