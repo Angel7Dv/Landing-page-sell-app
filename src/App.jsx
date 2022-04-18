@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className='snap-y snap-mandority  overflow-scroll h-screen w-screen '>
       <Navbar />
       <Hero />
       <Features/>
