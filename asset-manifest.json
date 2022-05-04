@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Landing-page-sell-app/static/css/main.1f01994e.css",
-    "main.js": "/Landing-page-sell-app/static/js/main.529d7eeb.js",
+    "main.css": "/Landing-page-sell-app/static/css/main.614f661c.css",
+    "main.js": "/Landing-page-sell-app/static/js/main.1a8b94a1.js",
     "static/js/787.e1be92c4.chunk.js": "/Landing-page-sell-app/static/js/787.e1be92c4.chunk.js",
     "static/media/hero01.jpg": "/Landing-page-sell-app/static/media/hero01.35f2543604b75ca68727.jpg",
     "index.html": "/Landing-page-sell-app/index.html",
-    "main.1f01994e.css.map": "/Landing-page-sell-app/static/css/main.1f01994e.css.map",
-    "main.529d7eeb.js.map": "/Landing-page-sell-app/static/js/main.529d7eeb.js.map",
+    "main.614f661c.css.map": "/Landing-page-sell-app/static/css/main.614f661c.css.map",
+    "main.1a8b94a1.js.map": "/Landing-page-sell-app/static/js/main.1a8b94a1.js.map",
     "787.e1be92c4.chunk.js.map": "/Landing-page-sell-app/static/js/787.e1be92c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f01994e.css",
-    "static/js/main.529d7eeb.js"
+    "static/css/main.614f661c.css",
+    "static/js/main.1a8b94a1.js"
   ]
 }
