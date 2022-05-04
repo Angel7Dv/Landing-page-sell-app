@@ -6,7 +6,7 @@ const Hero = () => {
     flex  justify-center min-h-full text-white 
     bg-cover bg-center bg-no-repeat bg-fixed w-full'
     style={{
-      backgroundImage: `url("Landing-page-sell-app/img/hero02.webp")` 
+      backgroundImage: `url("https://static.wixstatic.com/media/84770f_96c11cebc98e403394dc617de39729e6~mv2.jpg/v1/fill/w_980,h_1020,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_96c11cebc98e403394dc617de39729e6~mv2.jpg")` 
     }}
     
     >
@@ -31,7 +31,7 @@ const Hero = () => {
         <div className='-mb-24 border-blue-800 border bg-white mx-auto p-3 md:p-6
         md:rounded-[3rem] rounded-2xl'>
 
-        <img src="Landing-page-sell-app/img/Screen.webp" alt="" />
+        <img src="https://static.wixstatic.com/media/84770f_b3f47a9f0f544356b9c0ed17210c47be~mv2.jpg/v1/fill/w_760,h_570,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screen.jpg" alt="" />
         </div>
       </div>
     </div>

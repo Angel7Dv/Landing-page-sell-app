@@ -42,9 +42,8 @@ const Features = () => {
                 <h1 className='mb-16 font-bold text-5xl text-blue-600'>Data You Can Trust</h1>
 
 
-                <div className='flex justify-between space-x-3'>
-
-                    <div className='w-2/4 flex flex-col space-y-8'>
+                <div className='flex flex-col md:flex-row justify-between space-x-3'>
+                    <div className='md:w-2/4 flex flex-col md:space-y-8 mb-10 md:mb-0'>
 
                         {feactures.map((e, index) => (
 
@@ -64,8 +63,11 @@ const Features = () => {
 
 
                     </div>
-                    <div className='h-full rounded-4xl bw-wite p-4 border border-blue-600'>
-                        <img height={300} src="Landing-page-sell-app/img/Phone.webp" alt="" />
+                    <div className='flex'>
+
+                        <div className='h-full rounded-4xl bw-wite p-4 border border-blue-600 mx-auto'>
+                            <img height={300} src="https://static.wixstatic.com/media/c837a6_f8b99621ba3942abbe98ef6b9716730d~mv2.jpg/v1/fill/w_283,h_589,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Phone.jpg" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

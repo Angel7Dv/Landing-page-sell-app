@@ -7,13 +7,13 @@ const Section = () => {
     flex justify-center min-h-full text-white
     '
     style={{
-      backgroundImage: `url("Landing-page-sell-app/img/hero02.webp")` 
+      backgroundImage: `url("https://static.wixstatic.com/media/84770f_434c8f25365e4e09a103e2a80d320a26~mv2.jpg/v1/fill/w_980,h_720,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_434c8f25365e4e09a103e2a80d320a26~mv2.jpg")` 
     }}
     >
       {/* <img className='bg-scream' src="img/hero02.webp" alt="" /> */}
 
 
-      <div className='flex justify-center items-center w-2/4 px-16 flex-col text-center mt-36'>
+      <div className='flex justify-center items-center md:w-2/4 px-16 flex-col text-center mt-36'>
 
         <h1 className='text-5xl font-bold px-10'>
           Understand Your

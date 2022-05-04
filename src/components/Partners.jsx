@@ -1,6 +1,10 @@
 import React from 'react'
 
-const pathers = ["Landing-page-sell-app/img/Partner01.webp", "Landing-page-sell-app/img/Partner02.webp", "Landing-page-sell-app/img/Partner03.webp",]
+
+const pathers = [
+  "https://static.wixstatic.com/media/c837a6_bbd8a321092549b8adecaa747ab7fa67~mv2.png/v1/crop/x_78,y_115,w_667,h_542/fill/w_115,h_94,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Velo_City-01.png",
+  "https://static.wixstatic.com/media/c837a6_2e80fea635a64b8796b88461f274ab93~mv2.png/v1/crop/x_0,y_193,w_834,h_478/fill/w_148,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Pome_Grante-01.png",
+  "https://static.wixstatic.com/media/c837a6_a9a0649774bf4bf99ead9115932c55d3~mv2.png/v1/crop/x_0,y_141,w_834,h_448/fill/w_162,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Mikron-01.png",]
 
 const Partners = () => {
   return (
