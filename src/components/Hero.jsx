@@ -6,7 +6,7 @@ const Hero = () => {
     flex  justify-center min-h-full text-white 
     bg-cover bg-center bg-no-repeat bg-fixed w-full'
     style={{
-      backgroundImage: `url("/img/hero02.webp")` 
+      backgroundImage: `url("Landing-page-sell-app/img/hero02.webp")` 
     }}
     
     >
@@ -31,7 +31,7 @@ const Hero = () => {
         <div className='-mb-24 border-blue-800 border bg-white mx-auto p-3 md:p-6
         md:rounded-[3rem] rounded-2xl'>
 
-        <img src="img/Screen.webp" alt="" />
+        <img src="Landing-page-sell-app/img/Screen.webp" alt="" />
         </div>
       </div>
     </div>

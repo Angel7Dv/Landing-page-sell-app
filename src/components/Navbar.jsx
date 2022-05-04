@@ -2,10 +2,10 @@ import React, { useRef } from 'react'
 
 const Navbar = () => {
 
-  const btns = useRef()
+  const btns = useRef(null)
   const handlerHidenn = () => {
-    const className = btns.current.classList
-    className.toggle("hidden")
+    const className = btns.current
+    className.classList.toggle("hidden")
 
   }
 
@@ -40,17 +40,20 @@ const Navbar = () => {
             ><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path></svg>
           </button>
 
-          <div href={btns} className='hidden md:flex items-center'>
-            <a className='px-4' href="">Product</a>
-            <a className='px-4' href="">About</a>
-            <a className='px-4' href="">Parthers</a>
+          <div ref={btns} className='hidden md:flex  justify-center items-center'>
+            <div className='flex justify-center items-center'>
+              <button className='px-4 my-8 md:my-0' >Product</button>
+              <button className='px-4' >About</button>
+              <button className='px-4'>Parthers</button>
+            </div>
           </div>
-          <a className='w-2/3 py-2' href="">
+
+          <div className='w-2/3 py-2' >
             <button className='rounded-full
-              bg-black text-white  hover:bg-white hover:text-black'>
+              bg-black text-white  hover:bg-white hover:text-black p-2'>
               Get a Demo
             </button>
-          </a>
+          </div>
         </div>
       </div>
 

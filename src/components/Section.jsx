@@ -7,7 +7,7 @@ const Section = () => {
     flex justify-center min-h-full text-white
     '
     style={{
-      backgroundImage: `url("/img/hero02.webp")` 
+      backgroundImage: `url("Landing-page-sell-app/img/hero02.webp")` 
     }}
     >
       {/* <img className='bg-scream' src="img/hero02.webp" alt="" /> */}

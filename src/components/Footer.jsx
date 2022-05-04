@@ -5,7 +5,7 @@ const Footer = () => {
     <div className='bg-gradient-to-br from-indigo-600 to-blue-700  text-white'>
 
       <div className="border-b border white  ">
-        <div className="mx-48 mt-4 mb-6 grid grid-cols-2">
+        <div className="md:mx-48 mx-6 mt-4 mb-6 grid grid-cols-2">
           <p>
 
             EMAIL. angelriera1796@gmail.com
@@ -21,7 +21,7 @@ const Footer = () => {
 
       </div>
       <div className="border-b border white  ">
-        <div className="mx-48 mt-4 mb-6 grid grid-cols-2">
+        <div className="md:mx-48 mx-6 mt-4 mb-6 grid grid-cols-2">
           <p className=''>
 
 
@@ -38,7 +38,7 @@ const Footer = () => {
 
       </div>
       <div className="border-b border white  ">
-        <div className="mx-48 mt-4 mb-16 grid grid-rows-2">
+        <div className="md:mx-48 mx-6 mt-4 mb-16 grid grid-rows-2">
           <p className=''>
 
 

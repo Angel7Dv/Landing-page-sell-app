@@ -37,7 +37,7 @@ const Features = () => {
 
         >
 
-            <div className='flex flex-col mx-52 justify-center my-72'>
+            <div className='flex flex-col md:mx-52 mx-6 justify-center md:my-72 my-24'>
 
                 <h1 className='mb-16 font-bold text-5xl text-blue-600'>Data You Can Trust</h1>
 
@@ -65,7 +65,7 @@ const Features = () => {
 
                     </div>
                     <div className='h-full rounded-4xl bw-wite p-4 border border-blue-600'>
-                        <img height={300} src="img/Phone.webp" alt="" />
+                        <img height={300} src="Landing-page-sell-app/img/Phone.webp" alt="" />
                     </div>
                 </div>
             </div>
