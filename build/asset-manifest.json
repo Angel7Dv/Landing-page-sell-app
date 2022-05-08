@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Landing-page-sell-app/static/css/main.eb0895c7.css",
+    "main.js": "/Landing-page-sell-app/static/js/main.cb1f0e79.js",
+    "static/js/787.e1be92c4.chunk.js": "/Landing-page-sell-app/static/js/787.e1be92c4.chunk.js",
+    "index.html": "/Landing-page-sell-app/index.html",
+    "main.eb0895c7.css.map": "/Landing-page-sell-app/static/css/main.eb0895c7.css.map",
+    "main.cb1f0e79.js.map": "/Landing-page-sell-app/static/js/main.cb1f0e79.js.map",
+    "787.e1be92c4.chunk.js.map": "/Landing-page-sell-app/static/js/787.e1be92c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb0895c7.css",
+    "static/js/main.cb1f0e79.js"
+  ]
+}
