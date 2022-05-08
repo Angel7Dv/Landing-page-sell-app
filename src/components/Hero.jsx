@@ -13,7 +13,7 @@ const Hero = () => {
       <div className='flex w-4/6 flex-col justify-center my-4'>
 
         <div className='flex flex-col md:flex-row justify-center my-6 md:my-16'>
-          <h1 className='text-4xl md:text-[65px] font-bold -mt-24 md:mt-0 '>
+          <h1 className='text-4xl md:text-[65px] font-bold md:mt-0 md:leading-[6rem]'>
             Fast and Reliable
             Real-Time Data</h1>
           <div>

@@ -10,9 +10,9 @@ const Partners = () => {
   return (
     <div className=' bg-gradient-to-br from-indigo-600 to-blue-700 py-6 md:py-40 text-white'>
 
-      <div className="flex flex-col justify-center md:flex-row md:justify-start container md:mx-48 mx-6 ">
+      <div className="flex flex-col justify-center md:flex-row md:justify-start md:container">
 
-        <div className="text-center md:text-left text-6xl font-bold border-r py-5 pr-10 border-white" >
+        <div className="text-center md:text-left text-6xl font-bold border-r py-5 md:pr-10 border-white" >
           Partners
         </div>
 
@@ -39,7 +39,7 @@ const Partners = () => {
               CEO at Mikron
             </p>
           </div>
-          <p className='text-3xl text-center md:text-left font-bold md:w-2/3 '>
+          <p className='text-3xl text-center md:text-left font-bold md:w-2/3 md:my-0 my-16'>
           “I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”
           </p>
         </div>

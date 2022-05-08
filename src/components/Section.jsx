@@ -13,9 +13,9 @@ const Section = () => {
       {/* <img className='bg-scream' src="img/hero02.webp" alt="" /> */}
 
 
-      <div className='flex justify-center items-center md:w-2/4 px-16 flex-col text-center mt-36'>
+      <div className='flex justify-center items-center md:w-2/4 px-16 flex-col text-center md:mt-36 mt-16'>
 
-        <h1 className='text-5xl font-bold px-10'>
+        <h1 className='text-4xl md:text-[65px] font-bold md:px-10'>
           Understand Your
           Users Better</h1>
         <p className='text-md font-normal mt-12'>
