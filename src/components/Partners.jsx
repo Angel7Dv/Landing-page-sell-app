@@ -10,15 +10,15 @@ const Partners = () => {
   return (
     <div className=' bg-gradient-to-br from-indigo-600 to-blue-700 py-6 md:py-40 text-white'>
 
-      <div className="flex flex-col justify-center md:flex-row md:justify-start md:container">
+      <div className="flex flex-col justify-center sm:flex-row md:justify-start md:container">
 
-        <div className="text-center md:text-left text-6xl font-bold border-r py-5 md:pr-10 border-white" >
+        <div className="md:mx-48 text-center md:text-left text-6xl font-bold border-r py-5 md:pr-10 border-white" >
           Partners
         </div>
 
-        {pathers.map(e => (
+        {pathers.map((e,i) => (
 
-          <div className='flex justify-center'>
+          <div key={i} className='flex justify-center'>
             <img className='md:mx-14' src={e} alt="" />
 
           </div>
@@ -27,8 +27,7 @@ const Partners = () => {
 
       </div>
 
-      <div className="border-t border-white mt-20">
-
+      <div className="border-t border-white mt-20 ">
         <div className="md:mx-48 mx-4 mt-20">
           <div className='flex justify-center md:justify-start mb-5'>
 

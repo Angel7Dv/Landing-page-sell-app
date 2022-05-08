@@ -15,7 +15,7 @@ const Section = () => {
 
       <div className='flex justify-center items-center md:w-2/4 px-16 flex-col text-center md:mt-36 mt-16'>
 
-        <h1 className='text-4xl md:text-[65px] font-bold md:px-10'>
+        <h1 className='text-4xl md:text-[65px] font-bold md:px-10 md:leading-[4rem]'>
           Understand Your
           Users Better</h1>
         <p className='text-md font-normal mt-12'>

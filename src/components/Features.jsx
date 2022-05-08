@@ -13,14 +13,14 @@ const Features = () => {
 
                 <h1 className='md:mb-16 mb-3 font-bold text-4xl md:text-[65px] text-blue-600'>Data You Can Trust</h1>
 
-                <div className='flex flex-col md:flex-row items-center justify-center md:justify-between md:space-x-3'>
+                <div className='flex flex-col md:flex-row items-center justify-center md:space-x-3'>
                     <div className='md:w-2/4 flex flex-col md:space-y-8 mb-10 md:mb-0'>
 
                         {feactures.map((e, index) => (
-                            <div key={index}
+                            <div  key={index}
                                 className='md:w-4/6 w-5/6 -ml-60 translate-x-60 transition duration-[1500ms]'>
 
-                                <h3 className='font-bold my-6'>
+                                <h3 className='font-bold my-6 text-2xl md:text-xl'>
                                     {e}
                                 </h3>
                                 <p >
